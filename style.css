@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d192c;
+  display: flex;
+  justify-content: center;
+}
+
+.NftCard {
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  width: 350px;
+  height: 596px;
+  padding: 24px;
+  margin: auto;
+  margin: 152px 545px 152px 545px;
+}
+.box_to_hover {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.eye_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 100%;
+  background: #00fff8;
+  display: none;
+}
+.eye {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cube {
+  border-radius: 8px;
+  width: 302px;
+  height: 302px;
+}
+.NftCard h1 {
+  margin-top: 24px;
+  color: #ffffff;
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+.Our_Collection {
+  color: #8bacd9;
+  width: 302px;
+  height: 52px;
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.eth_icon {
+  margin-right: 6.49px;
+}
+.eth_Text {
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+}
+.clock_icon {
+  margin-right: 9.03px;
+}
+
+.clock_text {
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+
+.line {
+  border-bottom-width: 1px;
+  width: 302px;
+  border-style: solid;
+  border-color: hsla(216, 32%, 27%, 1);
+  margin-bottom: 16px;
+  margin: 24px 5px 1px 5px;
+}
+
+.day_tx {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 25px;
+}
+.eth_n_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.clock_n_tx {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Avatar {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.Creation {
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  margin-right: 5px;
+  margin-left: 16px;
+}
+
+.Jules {
+  font-family: Outfit, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.Bottom_box {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+h1:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+.Jules:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.box_to_hover:hover .eye_img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 100%;
+  background: hsla(178, 100%, 50%, 0.5);
+}
