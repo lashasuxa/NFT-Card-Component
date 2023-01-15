@@ -21,8 +21,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Qr-Code-Component](https://lashasuxa.github.io/NFT-Card-component/)
-- Live Site URL: [Qr-Code-Component](https://github.com/lashasuxa/NFT-Card-component)
+- Solution URL: [NFT preview card](https://lashasuxa.github.io/NFT-Card-component/)
+- Live Site URL: [NFT preview card](https://github.com/lashasuxa/NFT-Card-component)
 
 ## My process
 
